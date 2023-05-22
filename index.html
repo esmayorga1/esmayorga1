@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Edison Mayorga</title>
+	
+	<link rel="icon" type="image/png" href="./images/logo.png"/>
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.min.js"></script>
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<!-- Barra de navegacion -->
+	<header class="navbar container">
+		<figure class="navbar-logo">
+			<img class="navbar-logo-imagen" src="./images/logo.png" alt="Logo de Edison Mayorga">
+			<p class="navbar-logo-nombre">Edison Mayorga</p>
+		</figure>
+		<nav class="navbar-menu">
+			<a href="#portafolio" class="navbar-menu-link">Portafolio</a>
+			<a href="#experiencias" class="navbar-menu-link">Experiencia</a>
+			<a href="#contactos" class="navbar-menu-link">Trabajemos juntos</a>
+		</nav>
+	</header>
+
+	<!-- Seccion de Portada -->
+	<section class="hero container">
+		<h1 class="hero-titulo">
+			Hola! Soy <span>Edison Mayorga</span><br>
+			 <span>Cartografo</span> de UDEC<br>
+			estudiante <span>ing de software</span>
+		</h1>
+		<figure class="hero-imagen-container">
+			<div class="hero-border-imagen"></div>
+			<img class="hero-imagen" src="./images/hero.png" alt="Imagen de Edison Mayorga">
+		</figure>
+	</section>
+	
+	<!-- Seccion de Portafolio -->
+	<section id="portafolio" class="portafolio container">
+		<div class="container-adorno"></div>
+		<div class="container-titulo">
+			<div class="titulo-adorno"></div>
+			<p class="titulo-texto">Portafolio ( Proyectos Destacados )</p>
+		</div>
+		<article class="portafolio-proyecto">
+			<div class="proyecto-informacion">
+				<h2 class="informacion-titulo">Mapas de ruido de Fusagasugá</h2>
+				<p class="informacion-subtitulo">Niveles de presión sonora</p>
+				<p class="informacion-fecha">Fecha: <span>01/07/2017</span></p>
+				<p class="informacion-link">Puedes verlo en: <a href="https://repositorio.ucundinamarca.edu.co/handle/20.500.12558/549" target="_blank">https://repositorio.ucundinamarca.edu.co/handle</a></p>
+				<p class="informacion-descripcion">Proyecto merito mapas de ruido  de los niveles de presión sonora de Fusagasugá con sistemas de información geográfica</p>
+			</div>
+			<figure class="proyecto-imagen-container">
+				<img class="proyecto-imagen" src="./images/catastro.png" alt="Imagen del Proyecto">
+			</figure>
+		</article>
+	
+	</section>
+
+	<!-- Seccion de Experiencias -->
+	<section id="experiencias" class="experiencias container">
+		<div class="container-adorno"></div>
+		<div class="container-titulo">
+			<div class="titulo-adorno"></div>
+			<p class="titulo-texto">Experiencia</p>
+		</div>
+		<div class="experiencias-galeria">
+			<article class="galeria-experiencia">
+				<figure class="experiencia-multimedia-container">
+					<img class="experiencia-multimedia" src="./images/avion.png" alt="Imagen de PlatziConf">
+				</figure>
+				<div class="experiencia-contenido">
+					<h2 class="contenido-titulo">Validador de imágenes de satélite y de avión IGAC 2020-2023</h2>
+					<p class="contenido-descripcion">Cuento con 3 años de experiencia en validación de productos cartográficos, generaciones de modelos y scripts para la automatización procesos espaciales.</p>
+					<a class="contenido-link" id="button-informacion">Ver detalle</a>
+				</div>
+			</article>
+
+			<article class="galeria-experiencia">
+				<figure class="experiencia-multimedia-container">
+					<img class="experiencia-multimedia" src="./images/hiperespectrales.pmg.PNG" alt="Imagen de PlatziConf">
+				</figure>
+				<div class="experiencia-contenido">
+					<h2 class="contenido-titulo">Cartógrafo quimbaya Aerial Services Sas 2018-2020</h2>
+					<p class="contenido-descripcion"> Encargado de la captura de operar cámaras hiperespectrales tripuladas en avión y de preprocesamiento, y de la generación de cartografía Multiespectral</p>
+					<a class="contenido-link" id="button-experiencia">Ver Plática</a>
+				</div>
+			</article>
+
+			<article class="galeria-experiencia">
+				<figure class="experiencia-multimedia-container">
+					<img class="experiencia-multimedia" src="./images/catastro-2PNG.PNG" alt="Imagen de PlatziConf">
+				</figure>
+				<div class="experiencia-contenido">
+					<h2 class="contenido-titulo">Generación de planos de predios del departamento del vichada 2022</h2>
+					<p class="contenido-descripcion">Encardado de realizar los planos y análisis multitemporales de diferentes predios del departamento del vichada</p>
+					<a class="contenido-link" id="button-planos">Ver Plática</a>
+				</div>
+			</article>
+
+			<article class="galeria-experiencia">
+				<figure class="experiencia-multimedia-container">
+					<img class="experiencia-multimedia" src="./images/cartografia-base.PNG" alt="Imagen de PlatziConf">
+				</figure>
+				<div class="experiencia-contenido">
+					<h2 class="contenido-titulo">Digitalizador de ortofotomosaicos cartografía base 2020-2021</h2>
+					<p class="contenido-descripcion"> Encargado de realizar la cartografía base por medio de fotografías aéreas a diferentes escalas</p>
+					<a class="contenido-link" id="button-cartografia">Ver Plática</a>
+				</div>
+			</article> 
+		</div>
+	</section>
+
+	<!-- Seccion de Conocimientos -->
+	<section class="conocimientos container">
+		<div class="container-adorno"></div>
+		<div class="conocimientos-grilla">
+			<div class="conocimientos-columna">
+				<div class="conocimientos-elemento"><p>Arcgis</p><p>Qgis</p></div>
+				<div class="conocimientos-elemento"><p>Python</p></div>
+				<div class="conocimientos-elemento"><p>Erdas</p><p>R</p></div>
+				<div class="conocimientos-elemento"><p>Base de datos espaciales</p></div>
+				<div class="conocimientos-elemento"><p>C</p><p>Bash</p></div>
+				<div class="conocimientos-elemento"><p>Java</p></div>
+			</div>
+			<figure class="conocimientos-leonidas-container">
+				<img class="conocimientos-leonidas" src="./images/Edison-mayorgapng.png" alt="Imagen de Leonidas Esteban">
+			</figure>
+			<div class="conocimientos-columna">
+				<div class="conocimientos-elemento"><p>Digitalizador</p><p>Cartografía Base</p></div>
+				<div class="conocimientos-elemento"><p>Base de datos relacionales</p></div>
+				<div class="conocimientos-elemento"><p>Modelos geograficos</p><p>node</p></div>
+				<div class="conocimientos-elemento"><p>React Native</p></div>
+				<div class="conocimientos-elemento"><p>Angular</p><p>Gvsig</p></div>
+				<div class="conocimientos-elemento"><p>Ofimatica</p></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Seccion de Contacto -->
+	<section id="contactos" class="contactos container">
+		<div class="container-adorno"></div>
+		<div class="contactos-grilla">
+			<form class="contactos-formulario">
+				<div class="container-titulo">
+					<div class="titulo-adorno"></div>
+					<p class="titulo-texto">¿Creamos algo juntos?</p>
+				</div>
+				<input class="formulario-input" type="text" placeholder="Dejame tu email">
+				<button class="formulario-boton" id="button-enviar">Enviar</button>
+			</form>
+			<div class="contactos-redes">
+				<a href="https://twitter.com/?lang=es" target="_blank"><i class="icono fab fa-twitter"></i></a>
+				<a href="https://www.facebook.com/edison.mayorga.528" target="_blank"><i class="icono fab fa-facebook"></i></a>
+				<a href="https://github.com/esmayorga1" target="_blank"><i class="icono fab fa-github"></i></a>
+				<a href="https://www.instagram.com/mayorga_sebas/" target="_blank"><i class="icono fab fa-instagram"></i></a>
+			</div>
+		</div>
+
+		<div class="table-container">
+			<table class="table">
+			  <thead>
+				<tr>
+				  <th>Dirección</th>
+				  <th>Teléfono</th>
+				  <th>Estado Civil</th>
+				  <th>Disponibilidad</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td style="background-color: white;">Bogotá</td>
+				  <td style="background-color: white;">3125694758</td>
+				  <td style="background-color: white;">Soltero</td>
+				  <td style="background-color: white;">Medio Tiempo</td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>		  		  
+	</section>
+
+	
+
+	<!-- Pie de Pagina -->
+	<footer class="footer container">
+		<p class="footer-agradecimientos">
+			Correo: esmayorga@ucompensar.edu.co &nbsp;&nbsp; 
+			2023
+		</p>
+		<p class="footer-dedicatoria">
+			
+			<a href="https://github.com/esmayorga1" target="_blank">https://github.com/esmayorga1</a>
+		</p>
+	</footer>
+	
+</body>
+</html>
